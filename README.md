@@ -6,33 +6,20 @@ The Matrix Partition Method is used when dealing with very large matrices that c
 
 ## Matrix Partitioning
 
-Let the coefficient matrix $$ A $$ be partitioned as:
+Let the coefficient matrix A  be partitioned as:
 
-```
-A = [
-B C
-D E
-]
-```
+A = [B C][D E]
 
-Where:
-- $$ B $$ is an $$ I \times I $$ matrix
-- $$ C $$ is an $$ I \times m $$ matrix
-- $$ D $$ is an $$ m \times I $$ matrix
-- $$ E $$ is an $$ m \times m $$ matrix
 
-And $$ I $$ and $$ m $$ are positive integers such that $$ I + m = n $$.
+where B is an I × I matrix, C is an I × m matrix, D is an m x I and E is an m X m
+matrix; and I, m are positive integers with I + m = n.
+
 
 ## Inverse Partitioning
 
-Let the inverse of $$ A $$, denoted $$ A^{-1} $$, be partitioned as:
+Let the inverse of A , denoted  A^{-1} , be partitioned as:
 
-```
-A^(-1) = [
-P Q
-R S
-]
-```
+A^{-1} = [P Q][R S]
 
 ## Algorithm to Solve a Given Problem
 
@@ -61,10 +48,4 @@ This method provides a systematic way to handle large matrices by breaking them 
 - Handling matrices too large to fit in computer memory
 - Efficiently updating solutions when new variables or equations are added to the system
 
-## Implementation
 
-(Add details about any code implementation, if available)
-
-## References
-
-(Add any relevant references or sources)
