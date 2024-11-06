@@ -17,26 +17,22 @@ matrix; and I, m are positive integers with I + m = n.
 
 ## Inverse Partitioning
 
-Let the inverse of A , denoted  $$ A^{-1} $$ , be partitioned as:
+Let the inverse of A , denoted  A^{-1}, be partitioned as:
 
 A^{-1} = [P Q][R S]
 
 ## Algorithm to Solve a Given Problem
 
-1. **Partition the Matrix**: 
-   Divide matrix $$ A $$ into four smaller matrices: $$ B $$, $$ C $$, $$ D $$, and $$ E $$.
+Step 1: Divide matrix A into 4 smaller matrices namely B, C, E, and D.
 
-2. **Divide the Inverse**: 
-   Take the inverse of the original matrix $$ A $$ and divide it into four matrices $$ P $$, $$ Q $$, $$ R $$, and $$ S $$.
+Step 2: Take the inverse of the original matrix A and divide it into another 4 matrices X, Y, Z and V.
 
-3. **Solve for Submatrices**: 
-   Calculate $$ P $$, $$ Q $$, $$ R $$, and $$ S $$.
+Step 3: Solve for V, Y, Z and X.
 
-4. **Substitute Values**: 
-   Substitute the values of $$ P $$, $$ Q $$, $$ R $$, and $$ S $$ into the matrix.
+Step 4: Substitute the values of V, Y, Z and X into the matrix.
 
-5. **Compute $$ X $$**: 
-   Finally, solve for $$ X = \text{inverse}(A)B $$.
+Step 5: Solve for X = inverse(A)B
+
 
 ## Advantages
 
