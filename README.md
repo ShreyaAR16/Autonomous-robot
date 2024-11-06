@@ -4,11 +4,12 @@ When a matrix is very large and it is not possible to store the entire matrix in
 
 Let the coefficient matrix \( A \) be partitioned as:
 
-\[
+$$
 A = \begin{bmatrix} B & C \\ D & E \end{bmatrix}
-\]
+$$
 
 where:
+
 - \( B \) is an \( I \times I \) matrix,
 - \( C \) is an \( I \times m \) matrix,
 - \( D \) is an \( m \times I \) matrix,
@@ -18,9 +19,9 @@ and \( I \) and \( m \) are positive integers such that \( I + m = n \).
 
 Let the inverse of \( A \), denoted \( A^{-1} \), be partitioned as:
 
-\[
+$$
 A^{-1} = \begin{bmatrix} P & Q \\ R & S \end{bmatrix}
-\]
+$$
 
 ## Algorithm to Solve a Given Problem
 
@@ -31,6 +32,3 @@ A^{-1} = \begin{bmatrix} P & Q \\ R & S \end{bmatrix}
 5. **Compute \( X \)**: Finally, solve for \( X = \text{inverse}(A)B \).
 
 This method provides a systematic way to handle large matrices by breaking them down into manageable submatrices, which allows for efficient computation of the inverse.
-
-
-
