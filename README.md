@@ -17,7 +17,7 @@ matrix; and I, m are positive integers with I + m = n.
 
 ## Inverse Partitioning
 
-Let the inverse of A , denoted  A^{-1} , be partitioned as:
+Let the inverse of A , denoted  $$ A^{-1} $$ , be partitioned as:
 
 A^{-1} = [P Q][R S]
 
